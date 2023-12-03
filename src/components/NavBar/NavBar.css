@@ -209,8 +209,15 @@
 
 .getStartedButton {
 
-    background-color: transparent;
+    background-color:  rgba(101, 18, 202, 0.396);
     color: black;
     font-size: large;
-    border-radius: 12px;
+    border-radius: 20px;
+    border-width: 0px;
+    font-weight:500;
+    
+}
+
+.getStartedButton:hover {
+    background-color:  rgba(114, 0, 253, 0.586);
 }
