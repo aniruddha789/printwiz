@@ -1,7 +1,3 @@
-import React from "react";
-import ProductPage from "../ProductPage/ProductPage";
-import { Button } from "react-bootstrap";
-import ProductCard from "../../components/ProductCard/ProductCard";
 import "./home.css";
 import img1 from "../../assets/t1.jpg";
 import img2 from "../../assets/mikail-duran-Kv5WiqG_3NA-unsplash.jpg";
