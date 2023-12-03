@@ -1,4 +1,4 @@
-import "./home.css";
+import "./Home.css";
 import img1 from "../../assets/t1.jpg";
 import img2 from "../../assets/mikail-duran-Kv5WiqG_3NA-unsplash.jpg";
 
