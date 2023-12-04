@@ -28,12 +28,25 @@
 .imageContainerVertical {
     display: flex;
     orientation: vertical;
+
+    @media screen and (max-width: 960px) {
+        transition: 0.8s all ease;
+       /* display: block; */
+    }
 }
 
 .imageContainer {
     flex: 2;
     display: flex;
     margin-top: 0px;
+
+    
+    @media screen and (max-width: 960px) {
+        transition: 0.8s all ease;
+        display:contents;
+        /* width:46px !important; */
+        /* flex:4 !important; */
+    }
 }
 
 .model {
@@ -45,6 +58,15 @@
     flex: 1;
     margin: 10px;
     border-radius: 10px;
+
+    @media screen and (max-width: 960px) {
+        transition: 0.8s all ease;
+        max-width: 150px;
+        height: auto;
+        max-height: 200px;
+        margin-top: 120px !important;
+        
+    }
 }
 
 .model2 {
@@ -56,6 +78,12 @@
     flex: 1;
     margin: 10px;
     border-radius: 10px;
+
+    @media screen and (max-width: 960px) {
+        transition: 0.8s all ease;
+        visibility: hidden;
+     
+    }
 }
 
 .taglineContainer {
